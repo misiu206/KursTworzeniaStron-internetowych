@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuItem{
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.menuItemLink {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menuItemLink:hover {
+    color: #04bbe9
+}
