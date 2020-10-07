@@ -1,0 +1,32 @@
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#aboutImage {
+    width: 100%;
+    max-height: 720px;
+    object-fit: cover;
+}
+
+#aboutTextContainer {
+    max-width: 500px;
+    background-color: rgba(154, 205, 50, 0.7);
+    text-align: right;
+    padding: 30px;
+    margin:  -500px 50px 0 0;
+}
+
+@media (max-width: 1000px) {
+    #aboutTextContainer{
+        margin: 0;
+        max-width: 100%;
+        background-color: #04bbe9;
+    }
+}

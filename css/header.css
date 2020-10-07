@@ -26,3 +26,8 @@ header {
 .menuItemLink:hover {
     color: #04bbe9
 }
+
+#logo {
+    max-height: 60px;
+    padding-right: 100px;
+}
