@@ -1,0 +1,30 @@
+.btnGroup {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    max-width: 250px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    margin: 10px
+}
+
+.btnPrimary {
+    background-color:#04bbe9;
+}
+
+.btnPrimary:hover {
+    color: #04bbe9;
+    background-color:white;
+}
+.btnSecondary {
+    background-color: transparent;
+    border: 5px solid #04bbe9;
+}
+
+.btnSecondary:hover {
+    border: 5px solid white;
+    color: #04bbe9;
+}
