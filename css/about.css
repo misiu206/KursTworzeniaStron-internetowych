@@ -30,3 +30,22 @@
         background-color: #04bbe9;
     }
 }
+.cardIconBackground {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 30px;
+    background-color: #04bbe9;
+    border-radius: 50%;
+}
+
+.cardIcon {
+    max-width: 100px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom :hover {
+    transform: scale(1.3)
+}
